@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $.getJSON("data.json", function(data) {
+$(document).ready(function () {
+    $.getJSON("data.json?nocache=" + new Date().getTime(), function (data) {
         let tableData = Object.keys(data).map(agency => {
             return { "agency": agency, "word_count": data[agency] };
         });
