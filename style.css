@@ -19,11 +19,11 @@ body {
 
 /* Title Styling */
 h1 {
-    text-align: left;
+    text-align: right;
     color: #d71920; /* American red */
     font-family: 'Arial', sans-serif;
     margin-top: 30px; /* Moves it down */
-    margin-left: 100px; /* Moves it to start on the white stripe */
+    margin-right: 10px; /* Moves it 10 spaces left from full right alignment */
 }
 
 /* Data Table Styling */
