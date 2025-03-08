@@ -65,6 +65,38 @@ h1 {
         color: #333; /* Dark text */
     }
 
+/* Pagination section */
+.dataTables_paginate {
+    margin-top: 15px; /* Move pagination down */
+    text-align: center;
+}
+
+    /* Style pagination numbers */
+    .dataTables_paginate .paginate_button {
+        padding: 5px 10px;
+        margin: 3px;
+        border-radius: 5px;
+        background: transparent;
+        color: white; /* Inactive pages are white */
+        border: 1px solid #d71920; /* Red border */
+    }
+
+        /* Highlight active (selected) page */
+        .dataTables_paginate .paginate_button.current {
+            background: white;
+            color: black;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+/* Move "Showing X to Y of Z entries" text down */
+.dataTables_info {
+    color: white; /* White text */
+    display: block;
+    margin-top: 15px; /* Move down */
+    text-align: center;
+}
+
 /* Buttons & controls */
 button {
     background-color: #d71920; /* Red */
